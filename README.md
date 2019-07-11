@@ -1,2 +1,4 @@
 # undo_redo
-pure js undo/redo implementation
+Pure js undo/redo implementation
+
+This project is research and it is very poor in comments

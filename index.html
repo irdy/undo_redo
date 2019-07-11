@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Cart</title>
+	<link rel="stylesheet" href="src/cart.css">
+    <script src="dist/preloader.js"></script>
+	<script src="dist/main.js" type="module"></script>
+</head>
+<body>
+	<div id="main">
+		<div id="controls">
+            <input type="color" id="add_product">
+            <button id="prev"> <= </button>
+            <button id="next"> => </button>
+            <button id="clear_cart">Clear Cart</button>
+        </div>
+		<div id="observed_area">
+            <div id="goods">
+                <div class="product red">
+                    <div class="remove-product"></div>
+                </div>
+                <div class="product green">
+                    <div class="remove-product"></div>
+                </div>
+                <div class="product blue">
+                    <div class="remove-product"></div>
+                </div>
+            </div>
+            <div id="cart">
+
+            </div>
+        </div>
+	</div>
+</body>
+</html>
